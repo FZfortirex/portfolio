@@ -5,6 +5,7 @@ const healthyliving = document.getElementById('healthy-living');
 const sekolah = document.getElementById('sekolah');
 const ordermenu = document.getElementById('ordermenu');
 const pomodoro = document.getElementById('pomodoro');
+const waitingroom = document.getElementById('waitingroom');
 const skilvul = document.getElementById('skilvul');
 const bootcampSkilvul = document.getElementById('bootcamp-skilvul');
 const techcomfest = document.getElementById('techcomfest');
@@ -36,6 +37,10 @@ sekolah.addEventListener('click', () => {
 
 pomodoro.addEventListener('click', () => {
     window.open("https://pomodoro.rplrus.com/", "_blank");
+})
+
+waitingroom.addEventListener('click', () => {
+    window.open("http://waitingroom.rplrus.com/", "_blank");
 })
 
 skilvul.addEventListener('click', () => {
