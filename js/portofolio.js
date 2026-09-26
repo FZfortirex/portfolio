@@ -77,6 +77,12 @@ if (techcomfest) {
     });
 }
 
+if (techcomfest2) {
+    techcomfest.addEventListener('click', () => {
+        window.open("https://ibb.co.com/qM3RDYTb", "_blank");
+    });
+}
+
 // Kontrol Modal Box & Floating Button
 function closeDemoModal() {
     const demoModal = document.getElementById('demoModal');
