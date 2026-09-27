@@ -10,6 +10,7 @@ const waitingroom = document.getElementById('waitingroom');
 const skilvul = document.getElementById('skilvul');
 const bootcampSkilvul = document.getElementById('bootcamp-skilvul');
 const techcomfest = document.getElementById('techcomfest');
+const techcomfest2 = document.getElementById('techcomfest2');
 
 if (waroengdjoglo) {
     waroengdjoglo.addEventListener('click', () => {
