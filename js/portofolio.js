@@ -78,7 +78,7 @@ if (techcomfest) {
 }
 
 if (techcomfest2) {
-    techcomfest.addEventListener('click', () => {
+    techcomfest2.addEventListener('click', () => {
         window.open("https://ibb.co.com/qM3RDYTb", "_blank");
     });
 }
